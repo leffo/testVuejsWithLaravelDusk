@@ -8,6 +8,10 @@
                     <div class="card-body">
                         I'm an example component.
                     </div>
+                    <hr>
+                    <h4>Footer</h4>
+                    <br>
+                    <a href="/input">input</a>
                 </div>
             </div>
         </div>
@@ -15,9 +19,11 @@
 </template>
 
 <script>
+    import Telefon from "./telefon";
     export default {
+        components: { Telefon },
         mounted() {
             console.log('Component mounted.')
-        }
+        },
     }
 </script>
