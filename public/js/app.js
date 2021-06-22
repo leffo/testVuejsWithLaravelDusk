@@ -37668,7 +37668,9 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("br"),
             _vm._v(" "),
-            _c("a", { attrs: { href: "/input" } }, [_vm._v("input")])
+            _c("a", { attrs: { href: "/input", id: "input-href" } }, [
+              _vm._v("input")
+            ])
           ])
         ])
       ])
@@ -37700,7 +37702,7 @@ var render = function() {
     _vm._m(0),
     _vm._v(" "),
     _c("input", {
-      attrs: { id: "inputPhone", type: "text" },
+      attrs: { id: "inputPhone", type: "text", dusk: "input-phone" },
       domProps: { value: _vm.textInput }
     }),
     _vm._v(" "),
@@ -37709,6 +37711,7 @@ var render = function() {
     _c(
       "button",
       {
+        attrs: { dusk: "ok-button" },
         on: {
           click: function($event) {
             $event.preventDefault()

@@ -11,7 +11,7 @@
                     <hr>
                     <h4>Footer</h4>
                     <br>
-                    <a href="/input">input</a>
+                    <a href="/input" id="input-href">input</a>
                 </div>
             </div>
         </div>

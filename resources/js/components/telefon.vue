@@ -5,9 +5,9 @@
             <option>+983</option>
             <option>+39</option>
         </select>
-        <input id="inputPhone" type="text" :value="textInput">
+        <input id="inputPhone" type="text" :value="textInput" dusk="input-phone">
         <br>
-        <button @click.prevent="clickButton">OK</button>
+        <button @click.prevent="clickButton" dusk="ok-button">OK</button>
     </div>
 </template>
 
